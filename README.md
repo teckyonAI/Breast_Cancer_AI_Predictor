@@ -31,7 +31,7 @@ To run the project locally, follow these steps:
 ## Usage
 
 1. Open the application in your browser after running it locally or from a deployed instance.
-2 Input the clinical data fields as prompted in the interface.
+2. Input the clinical data fields as prompted in the interface.
 3. View the prediction result indicating whether the input data suggests a potential case of breast cancer.
 
 ## Deployment
