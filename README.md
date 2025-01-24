@@ -14,11 +14,11 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/teckyonAI/Breast_Cancer_Prediction_Tool.git
+   git clone https://github.com/teckyonAI/Breast_Cancer_AI_Predictor.git
    
 2. Navigate to the project directory:
    ```bash
-   cd Breast_Cancer_Prediction_Tool
+   cd Breast_Cancer_AI_Predictor
 
 3. Install the required dependencies:
     ```bash
