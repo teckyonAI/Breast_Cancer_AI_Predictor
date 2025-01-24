@@ -14,11 +14,11 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Breast-Cancer-Prediction.git
+   git clone https://github.com/teckyonAI/Breast_Cancer_Prediction_Tool.git
    
 2. Navigate to the project directory:
    ```bash
-   cd WhatsApp_Chat_Analyzer
+   cd Breast_Cancer_Prediction_Tool
 
 3. Install the required dependencies:
     ```bash
