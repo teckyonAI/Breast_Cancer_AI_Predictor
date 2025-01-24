@@ -1,4 +1,4 @@
-# Breast Cancer Prediction Tool: Early Detection Using Machine Learning
+# Breast Cancer AI Predictor: Early Detection Using Machine Learning
 
 This project provides a reliable, AI-driven solution for predicting breast cancer. By leveraging machine learning, the tool analyzes clinical data and provides quick, accurate predictions, supporting early detection and treatment planning.
 
