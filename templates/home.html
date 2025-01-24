@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div id="brandname">
+                Machine Learning App with Flask
+            </div>
+            <h2>Breast Cancer Detection App</h2>
+
+        </div>
+    </header>
+
+    <div class="ml-container">
+
+        <form action="{{ url_for('predict')}}" method="POST">
+            <p>Mean_Radius: (mean of distances from center to points on the perimeter)</p>
+            <input type="text" name="mean_radius" placeholder="Mean_Radius">
+
+            <br>
+
+            <p>Mean_Texture: (standard deviation of gray-scale values)</p>
+            <input type="text" name="mean_texture" placeholder="Mean_Texture">
+
+            <br>
+
+            <p>Mean_Perimeter" (mean size of the core tumor)</p>
+            <input type="text" name="mean_perimeter" placeholder="Mean_Perimeter">
+
+            <br>
+
+            <p>Mean_Area</p>
+            <input type="text" name="mean_area" placeholder="Mean_Area">
+
+            <br>
+
+            <p>Mean_Smoothness: (mean of local variation in radius lengths)</p>
+            <input type="text" name="mean_smoothness" placeholder="Mean_Smoothness">
+
+            <br><br>
+            <button type="submit" class="btn-info">Predict</button>
+
+        </form>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
