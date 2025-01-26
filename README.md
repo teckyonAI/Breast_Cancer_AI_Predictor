@@ -79,15 +79,21 @@ To run the project locally, follow these steps:
     ```bash
     python app.py
 
+---
+
 ## Usage
 
 1. Open the application in your browser after running it locally or from a deployed instance.
 2. Input the clinical data fields as prompted in the interface.
 3. View the prediction result indicating whether the input data suggests a potential case of breast cancer.
 
+---
+
 ## Deployment
 
 This project is configured for deployment on platforms like Heroku. 
+
+---
 
 ## Contribution
 
@@ -95,4 +101,3 @@ Contributions are welcome! Here's how you can contribute:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
 3. Submit a pull request with a detailed explanation of the changes.
-
