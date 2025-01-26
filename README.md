@@ -28,22 +28,8 @@ This project is built with the following technologies:
 
 ## Dataset
 
-The model is trained on a clinical dataset, such as the well-known Wisconsin Breast Cancer dataset. The dataset includes the following features:
-
-### Dataset Fields:
-- **ID**: Unique identifier for each patient.
-- **Mean Radius**: Average size of the tumor.
-- **Mean Texture**: Consistency in cell appearance.
-- **Mean Perimeter**: Perimeter of the tumor.
-- **Mean Area**: Estimated tumor area.
-- **Mean Smoothness**: Degree of tumor surface regularity.
-- **Diagnosis**: Target field indicating whether the tumor is benign or malignant.
-
-### Dataset Format:
-
 The dataset used for training the model is structured to include clinical measurements and a target diagnosis label. Below is a detailed description of the fields:
 
-#### Fields:
 1. **ID**: Unique identifier for each patient. (e.g., 842302)
 2. **Mean Radius**: Average size of the tumor, measured in millimeters.
 3. **Mean Texture**: Variation in the gray-scale intensity of cells.
